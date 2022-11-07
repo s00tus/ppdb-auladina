@@ -1,0 +1,87 @@
+.wrapper2 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../images/bg-registration-form-5.jpg") no-repeat;
+    background-size: cover; }
+
+.inner2 {
+  min-width: 850px;
+  margin: auto;
+  display: flex; }
+
+body {
+    font-family: "Montserrat";
+    font-size: 15px;
+    margin: 0; }
+    
+
+.form2 {
+    width: 50%;
+    background: #050262;
+    padding-top: 63px;
+    padding-left: 49px;
+    padding-right: 50px; }
+
+.form-holder3 {
+  width: 67.08%; 
+  position: relative; }
+  .form-holder3 i {
+    position: absolute;
+    transform: translateY(-25px);
+    left: 240px; }
+
+.form-control3 {
+    height: 25px;
+    display: block;
+    font-size: 13px;
+    border: none;
+    border-bottom: 1px solid #6967a1;
+    background: none;
+    color: #fff;
+    padding: 0; }
+
+select.form-control3 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    transform: translateY(-1px); }
+
+file.form-control{
+    height: 25px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #6967a1;
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+@media (max-width: 991px) {
+    .inner {
+      min-width: auto; }
+  
+    .isi {
+      padding-top: 30px;
+      padding-bottom: 33px; }
+  
+    .image-holder {
+      max-height: 490px; } }
+
+@media (max-width: 767px) {
+    .inner {
+        display: block; }
+  
+    .isi {
+        width: 100%; }
+  
+    .image-holder {
+        width: 100%; }
+  
+    .isi {
+        padding: 50px 20px; }
+  
+    .wrapper {
+        background: none; } }
